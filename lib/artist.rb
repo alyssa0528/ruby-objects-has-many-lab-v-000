@@ -1,6 +1,7 @@
 require 'pry'
 class Artist 
   attr_accessor :name
+  attr_reader :songs #equivalent to def songs, @songs, end 
   
   @@song_count = 0 
   
