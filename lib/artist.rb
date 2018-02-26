@@ -18,6 +18,7 @@ class Artist
   
   def add_song_by_name(name)
     song = Song.new(name)
+    self.
     song.artist = self #self here refers to the instance of Artist 
   end 
   
