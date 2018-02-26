@@ -6,6 +6,9 @@ class Post
   end  
   
   def author_name 
-    self.author.name 
+    if self.author == nil 
+      nil 
+    else 
+      self.author.name 
   end 
 end 
